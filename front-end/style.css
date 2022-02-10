@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+  display: block;
+  margin: auto;
+  padding: 1% 3% 1%;
+  
+  background: linear-gradient(
+    to left,
+    #72d0e7fd,
+    #273cf7
+  ); 
+  width: 80%;
+  border-radius: 10px 10px 0px 0px;
+  line-height: 10px;
+}
+.navbar h1 {
+  color:rgb(255, 255, 204);
+  font-size: 30px;
+  
+}
+.navbar small {
+ color:yellow;
+  font-size: 15px;
+}
+.container {
+  margin: auto;
+  background-color: #fdfdfd;
+  background-image: linear-gradient(315deg, #ffffff 0%, #ffcbaa65 74%);
+  height: 50vh;
+  width: 86%;
+}
+.msg{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    
+    padding:4px;
+    line-height:20px;
+    width : 40%;
+    box-shadow: 4px 4px 4px;
+    margin: 10px 5px;
+}
+.left{
+    float:left;
+    clear: both;
+    background-color: rgb(250, 250, 250);
+}
+.right{
+  float:right;
+  clear: both;
+  background-color: rgb(236, 234, 234);
+}
+.send{
+  display:block;
+  margin:0px 260px;
+  width :100%;
+  text-align:center;
+  margin:auto;
+  background-color: rgb(255, 243, 243);
+  width :86%;
+  border-radius: 0px 0px 10px 10px;
+}
+.msgInput{
+    width:50%;
+    border-radius: 10px;
+    height:34px;
+    margin:5px;
+    background-image: linear-gradient(315deg, #ffffff 0%, #ffcbaa65 74%);
+}
+.btn{
+  margin:10px;
+  border-radius:60%;
+  border: 2px solid blue;
+}
